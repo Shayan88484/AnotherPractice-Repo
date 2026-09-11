@@ -1,0 +1,10 @@
+
+for pushing files directly without first making Repository then follow these steps.
+
+i will use shortcuts because everything is explained in the Practice-Repository
+
+1. git init
+2. git add .
+3. git commit -m "message"
+4. git remote add origin (url)
+5. git push -u origin main
