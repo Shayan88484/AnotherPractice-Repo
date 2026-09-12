@@ -13,3 +13,25 @@ After writing git push -u then you don't need to write everyword of pushing agai
 
 6. git branch
 7.git remote -v (lists all the remote repositories linked to your local Git project)
+
+
+// branch Methods
+
+for making branch
+1. git checkout -b Branch1
+
+saving changes in new branch
+1. git push origin branchName
+
+switching branch
+1. git checkout branchName
+
+deleting branch
+2. git branch -d branchName
+
+Mergin branch
+1. either do it in Github 
+2. git merge branchName
+
+Updating existing file according to changes on Github
+1. git pull origin main
