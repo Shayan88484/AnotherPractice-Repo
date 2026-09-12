@@ -8,3 +8,8 @@ i will use shortcuts because everything is explained in the Practice-Repository
 3. git commit -m "message"
 4. git remote add origin (url)
 5. git push -u origin main
+
+After writing git push -u then you don't need to write everyword of pushing again but simply write (git push).
+
+6. git branch
+7.git remote -v (lists all the remote repositories linked to your local Git project)
