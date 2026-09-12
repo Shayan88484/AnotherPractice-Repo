@@ -1,5 +1,27 @@
-h1{
-    background: lightblue;
-    color: blue;
-    font-family: "poopins", sans-serif;
+/* 1. Make the nav container spread the logo and link-group apart */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    background-color: rgba(0, 102, 255, 0.186);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Optional: adds breathing room on the sides */
+}
+
+/* 2. Turn the ul list horizontal */
+.nav-links {
+  display: flex;
+  list-style: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  gap: 20px; /* This controls the spacing strictly between your links */
 }
