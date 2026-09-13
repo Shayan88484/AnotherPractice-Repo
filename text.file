@@ -35,3 +35,20 @@ Mergin branch
 
 Updating existing file according to changes on Github
 1. git pull origin main
+
+
+// Reseting commits and adding
+
+for just changes if save with git add .
+1. git reset
+
+for changes which is commited then reseting them:
+1. git reset HEAD~1  (HEAD  is the default name of the latest commit)
+Hent: git log will give you all of your commits 
+
+for reseting you commits from a specific commit do:
+1. git reset Hashcode ("like this 866b06a0e9e6c717b491f217ca07f60a0e5ca688")
+so whatever comes after Hashcode that will be reseted
+
+after reseting if you want the code also removed from vs code then:
+1. get reset --hard Hashcode
